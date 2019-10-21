@@ -1,1 +1,29 @@
 
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		
+		<?php
+		/**
+		* class with static variable in php
+		*/
+		class OOP{
+			 public static $name;
+		}
+		/**
+		* set static value
+		*/
+		OOP::$name="Mohammed Shafiq Fata";
+		/**
+		* readoing static value
+		*/
+			echo("Name : ".OOP::$name."<br>");
+		?>
+		
+		
+	</body>
+</html>
